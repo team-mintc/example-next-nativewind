@@ -100,4 +100,4 @@ module.exports = withTM({
 ```
 
 ### 예제 코드
-[https://github.com/team-mintc/example-next-nativewind/blob/main/pages/nativewind.tsx](https://github.com/team-mintc/example-next-nativewind/blob/main/pages/nativewind.tsx)
+[https://github.com/team-mintc/example-next-nativewind](https://github.com/team-mintc/example-next-nativewind)
