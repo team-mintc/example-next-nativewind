@@ -44,7 +44,7 @@ module.exports = {
 
 VSCode 설정에서 Format On Save를 설정해준다
 
-이미지
+![image](https://user-images.githubusercontent.com/5517346/236506508-7e981bdb-f265-4412-ad4d-d3dd502b25e3.png)
 
 
 ## NativeWind
