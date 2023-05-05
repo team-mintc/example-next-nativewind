@@ -23,6 +23,29 @@ npx create-next-app example-next-nativewind
 Default가 설치하는 것이다.
 postcss, autoprefixer가 함께 설치된다.
 
+## Prettier (옵션)
+Code Convention을 유지하기 위해 사용하는 좋은 툴이다.
+
+### 설치
+```
+yarn add -D prettier
+```
+
+프로젝트 루트에 .prettierrc.js 파일 생성
+```javascript
+module.exports = {
+  bracketSpacing: false,
+  jsxBracketSameLine: true,
+  singleQuote: true,
+  trailingComma: 'all',
+  arrowParens: 'avoid',
+};
+```
+
+VSCode 설정에서 Format On Save를 설정해준다
+
+이미지
+
 
 ## NativeWind
 
@@ -42,7 +65,7 @@ yarn add -D @types/react-native next-transpile-modules
 ### Configuration
 
 tailwind.config.js
-```
+```javascript
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   ...
@@ -51,7 +74,7 @@ module.exports = {
 ```
 
 next.config.js
-```
+```javascript
 /** @type {import('next').NextConfig} */
 
 const withTM = require('next-transpile-modules')([
